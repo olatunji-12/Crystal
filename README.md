@@ -20,6 +20,8 @@ Copy your project files to Nginx’s web root: sudo cp -r Crystal/* /var/www/htm
 
 Configure Nginx for your custom domain: sudo nano /etc/nginx/sites-available/default
 
+For Domain name "animalsforalllives.com";
+
 Replace the contents with:
 
 server {
@@ -33,6 +35,7 @@ server {
         try_files $uri $uri/ =404;
     }
 }
+
 Save and exit (CTRL + O, ENTER, then CTRL + X).
 
 Restart Nginx: sudo systemctl restart nginx
@@ -90,7 +93,9 @@ Visit your site via:
 
 http://animalsforalllives.com
 
-Or test using your VM's IP address: http://<your-vm-ip>
+Or test using your VM's IP address:
+
+http://<your-vm-ip>
 
 **🚀 Technologies Used**
 Microsoft Azure – for Virtual Machine provisioning
