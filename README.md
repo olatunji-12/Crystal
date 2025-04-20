@@ -95,7 +95,7 @@ http://animalsforalllives.com
 
 Or test using your VM's IP address:
 
-http://<your-vm-ip>
+http://172.200.170.16
 
 **🚀 Technologies Used**
 Microsoft Azure – for Virtual Machine provisioning
